@@ -2,16 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-14T19:54:52 IST" name="Default suite" finished-at="2024-05-14T19:55:13 IST" duration-ms="21148">
+  <suite started-at="2024-05-24T22:23:06 IST" name="Suite" finished-at="2024-05-24T22:23:25 IST" duration-ms="18803">
     <groups>
+      <group name="Smoke">
+        <method signature="Test1.openBrowser()[pri:0, instance:DibyanshVerma.Demo.Test1@7cc0cdad]" name="openBrowser" class="DibyanshVerma.Demo.Test1"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-05-14T19:54:52 IST" name="Default test" finished-at="2024-05-14T19:55:13 IST" duration-ms="21148">
+    <test started-at="2024-05-24T22:23:06 IST" name="Test" finished-at="2024-05-24T22:23:25 IST" duration-ms="18803">
       <class name="DibyanshVerma.Demo.Test1">
-        <test-method signature="openBrowser()[pri:0, instance:DibyanshVerma.Demo.Test1@4135c3b]" started-at="2024-05-14T19:54:52 IST" name="openBrowser" finished-at="2024-05-14T19:55:13 IST" duration-ms="21116" status="PASS">
+        <test-method signature="openBrowser()[pri:0, instance:DibyanshVerma.Demo.Test1@7cc0cdad]" started-at="2024-05-24T22:23:06 IST" name="openBrowser" finished-at="2024-05-24T22:23:25 IST" duration-ms="18752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
       </class> <!-- DibyanshVerma.Demo.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
