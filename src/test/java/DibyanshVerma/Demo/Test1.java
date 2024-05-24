@@ -50,7 +50,7 @@ public class Test1 {
 				driver.findElement(By.id("showhide")).click();
 				Thread.sleep(2000);
 				driver.findElement(By.id("ContinueBtn")).click();
-				System.out.println("User able to click on Continue Button on Home Page");
+				System.out.println("User able to click on Continue Button on Home Page!");
 
 				// Authorization Page Command
 				driver.findElement(By.id("CancelBtn")).click();
