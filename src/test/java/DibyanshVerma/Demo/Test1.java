@@ -44,8 +44,10 @@ public class Test1 {
 				// Find the UserName and password input fields and enter credentials
 				WebElement usernameInput = driver.findElement(By.id("USERNAME"));
 				usernameInput.sendKeys(username);
+				System.out.println("This user" +username+ "is putting into username field");
 				WebElement passwordInput = driver.findElement(By.id("password"));
 				passwordInput.sendKeys(password);
+				System.out.println("This user" +password+ "is putting into Password field");
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("showhide")));
 				driver.findElement(By.id("showhide")).click();
 				Thread.sleep(2000);
